@@ -10,13 +10,13 @@ The second app receives the event and its data and displays it.
 
 Create the 'Receive' app first:
 
-1. `cd v2_sample_notifyreceive`
-2. Run `zat create` and enter your admin and test instance information
+1. `cd receive_notifications`
+2. Run `zcli apps:create` and enter your admin and test instance information
 3. Run `cat .zat` -- write down the app_id value
 
 Create the 'Send' app:  
 
-4. `cd v2_sample_notifysend`
+4. `cd send_notifications`
 5. Edit assets\iframe.html and change a couple of values...
 6. Enter Receive's `app_id` value
 7. Either enter a valid `agent_id` or remove `agent_id` (don't forget to remove the preceding comma from the JSON object if you remove `agent_id`)

@@ -1,14 +1,5 @@
-# App name
+# App Notifications Example - Send
 
-[brief description of the app]
-
-### The following information is displayed:
-
-* info1
-* info2
-* info3
+Demonstration of how to *send* a notification event within a Zendesk ticket sidebar app.
 
 Please submit bug reports to [Insert Link](). Pull requests are welcome.
-
-### Screenshot(s):
-[put your screenshots down here.]
