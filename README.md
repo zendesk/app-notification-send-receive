@@ -86,3 +86,11 @@ zcli apps:server
 - [ZAF Client API](https://developer.zendesk.com/api-reference/apps/apps-core-api/client_api/)
 - [Zendesk Apps Guide](https://developer.zendesk.com/documentation/apps/)
 - [Apps Support API documentation](https://developer.zendesk.com/api-reference/apps/apps-support-api/introduction/)
+
+<!-- Issue reporting with link to repo issues page -->
+
+## Issues
+
+You can [create an issue on Github](https://github.com/zendesk/example/issues/new),
+reach out in our [Developer Community](https://support.zendesk.com/hc/en-us/community/topics),
+or report the issue in the [Zendesk Developers Slack group](https://docs.google.com/forms/d/e/1FAIpQLScm_rDLWwzWnq6PpYWFOR_PwMaSBcaFft-1pYornQtBGAaiJA/viewform).

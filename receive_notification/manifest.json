@@ -1,9 +1,9 @@
 {
   "name": "Demo App for Notifications (Receive)",
   "author": {
-    "name": "Erica",
-    "email": "erica.girges@zendesk.com",
-    "url": "http://z3nericagirges.zendesk.com"
+    "name": "Developer Advocacy at Zendesk",
+    "email": "developer-support@zendesk.com",
+    "url": "https://developer.zendesk.com/documentation/"
   },
   "defaultLocale": "en",
   "private": true,

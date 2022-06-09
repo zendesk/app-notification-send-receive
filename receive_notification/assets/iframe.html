@@ -11,13 +11,18 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock@7.0.21,npm/@zendeskgarden/css-utilities@4.3.0"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@zendeskgarden/css-variables@6.4.5/dist/index.min.css"
+    />
   </head>
   <body>
-    <h2 class="u-semibold u-fs-xl">Sample App Notifications</h2>
-    <p id="messageOutput" class="u-regular">(no messages yet)</p>
+    <p id="messageOutput" class="u-regular" style="padding: 20px 0">
+      (no messages yet)
+    </p>
     <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
     <script>
-      // Initialise Apps framework client. 
+      // Initialise Apps framework client.
       // This is allows requests between your iframed app and the Zendesk UI.
       // See also: https://developer.zendesk.com/apps/docs/developer-guide/getting_started
       const client = ZAFClient.init();
@@ -28,14 +33,16 @@
       // This displays the received notification.
       function handleNotification(event) {
         console.log("notification: ", event);
-        document.getElementById("messageOutput").innerText = JSON.stringify(event);
+        document.getElementById("messageOutput").classList.add("u-bold");
+        document.getElementById("messageOutput").classList.remove("u-regular");
+        document.getElementById("messageOutput").innerHTML = event;
       }
 
       // This creates a listener for the event 'api_notification.my_custom_notify_event_name'
       client.on(
         "api_notification.my_custom_notify_event_name",
         function (data) {
-          handleNotification(data);
+          handleNotification(data.body.notification_data);
         }
       );
     </script>
