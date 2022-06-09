@@ -1,4 +1,4 @@
-# App Notify Send/Receive Event Demo
+# Demo App Notify Send/Receive Event
 
 This repo contains **two apps** which you will load into your Zendesk instance.
 
