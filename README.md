@@ -32,13 +32,14 @@ Create the Receive app first:
 
 * `cd receive_notifications` 
 * Run `zcli apps:create` and enter your admin and test instance information
-* Write down the app_id value displayed in the terminal
+* Make note of the app_id value displayed in the terminal - you'll need it later
 
 Create the Send app:  
 
 * `cd send_notifications`
 * Navigate to assets/iframe.html and edit the following values
 * In `sendNotification()`, enter the Receive Notification `app_id` that you took down earlier
+* Replace `YOURSUBDOMAIN` with your own subdomain associated with your Zendesk instance
 * Either enter a valid `agent_id` or remove `agent_id` (don't forget to remove the preceding comma from the JSON object if you remove `agent_id`)
 * `zcli apps:create`
 
