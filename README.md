@@ -92,6 +92,6 @@ zcli apps:server
 
 ## Issues
 
-You can [create an issue on Github]([https://github.com/zendesk/example/issues/new](https://github.com/zendesk/app-notification-send-receive/issues/new)),
+You can [create an issue on Github](https://github.com/zendesk/app-notification-send-receive/issues/new),
 reach out in our [Developer Community](https://support.zendesk.com/hc/en-us/community/topics),
 or report the issue in the [Zendesk Developers Slack group](https://docs.google.com/forms/d/e/1FAIpQLScm_rDLWwzWnq6PpYWFOR_PwMaSBcaFft-1pYornQtBGAaiJA/viewform).
